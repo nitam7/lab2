@@ -24,5 +24,7 @@ function projectClick(e) {
 
 	//In an event handler, $(this) refers to the object that
 	//triggered the event
-	$(this).css("background-color", "#7fff00");
+	var projectTitle = $(this).find("p").text();
+	var jumbotronHeader = $(".jumbotron h1");
+	jumbotronHeader.text(projectTitle);
 }
