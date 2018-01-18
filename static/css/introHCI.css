@@ -40,6 +40,10 @@ img .thumbnail {
      border: 1px solid #434343;
 }
 
+p {
+     font-variant: small-caps;
+}
+
 .contact-info {
      font-size: 10pt;
      color: #cccccc;
